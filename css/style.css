@@ -1,0 +1,40 @@
+html {
+  font-size: 62.5%;
+}
+.homepage {
+  color: white;
+  height: 68.4rem;
+  background: url("../img/bg-1.png") no-repeat;
+  background-size: 100%;
+}
+.homepage img {
+  width: 6.1rem;
+  height: 4rem;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+  background-color: #2EAB46;
+}
+.homepage p {
+  margin: 0 auto;
+  text-align: center;
+}
+.homepage span i {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: 100%;
+  background-image: url("../img/nike-logo.png");
+}
+.homepage input {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.homepage button {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: #DE1321;
+}
