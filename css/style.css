@@ -1,40 +1,190 @@
-html {
-  font-size: 62.5%;
+@charset "utf-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+p,
+ul {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
 }
 .homepage {
   color: white;
-  height: 68.4rem;
+  width: width;
+  height: 6.84rem;
   background: url("../img/bg-1.png") no-repeat;
   background-size: 100%;
 }
 .homepage img {
-  width: 6.1rem;
-  height: 4rem;
-  padding: 1rem 2rem;
-  margin-left: 1rem;
+  display: block;
+  width: 1.36rem;
+  height: 0.48rem;
+  padding: 0.2rem 0.3rem;
+  margin-left: 0.2rem;
   background-color: #2EAB46;
+  border-radius: 0 0 0.2rem 0;
 }
-.homepage p {
-  margin: 0 auto;
-  text-align: center;
+.homepage span {
+  font-size: 0.3rem;
+  font-weight: lighter;
 }
 .homepage span i {
-  margin: 0 auto;
-  text-align: center;
+  position: relative;
+  top: 0.02rem;
+  margin-right: 0.1rem;
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-size: 100%;
+  width: 0.4rem;
+  height: 0.4rem;
+  background-size: 130%;
   background-image: url("../img/nike-logo.png");
+  background-position: 0 0 ;
 }
 .homepage input {
   display: block;
-  text-align: center;
-  margin: 0 auto;
+  font-size: 0.25rem;
+  border-style: none;
+  width: 5.28rem;
+  height: 0.9rem;
+  padding-left: 0.2rem;
+  border-radius: 0.15rem;
+  margin: 0.2rem auto;
+  font-weight: lighter;
+  box-shadow: 0 0 0.1rem #000000;
+  position: relative;
 }
 .homepage button {
   display: block;
+  width: 5.58rem;
+  height: 1rem;
+  font-size: 0.42rem;
   margin: 0 auto;
   color: white;
+  border-style: none;
+  border-radius: 0.15rem;
+  box-shadow: 0 0 0.1rem #000000;
   background-color: #DE1321;
+}
+.top-contend {
+  margin: 0.2rem auto;
+  text-align: center;
+  font-size: 0.45rem;
+}
+.top-title {
+  display: inline-block;
+  font-size: 0.25rem;
+  padding: 0.2rem 0;
+  border-top: 0.1px solid #ccc;
+  border-bottom: 0.1px solid #ccc;
+}
+.top-middle {
+  margin: 0.1rem auto;
+}
+.phone-number-tip {
+  font-size: 0.25rem;
+  display: block;
+  font-style: normal;
+  float: right;
+  position: absolute;
+  right: 0.5rem;
+  top: 4.5rem;
+  color: red;
+  font-weight: lighter;
+}
+.resume {
+  margin: -1px auto;
+  color: white;
+  width: width;
+  height: 5.67rem;
+  background: url("../img/bg-2.png") no-repeat;
+  background-size: 100%;
+  display: block;
+}
+.resume p {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 0.33rem;
+  margin-top: 0.5rem;
+  margin-left: 1.6rem;
+}
+.resume p span {
+  color: #2EAB46;
+  font-weight: bold;
+}
+.resume img {
+  display: block;
+  width: 1.36rem;
+  height: 0.48rem;
+  margin-top: 0.8rem;
+  margin-right: 0.3rem;
+  float: right;
+}
+#resume-contend {
+  width: 4.3rem;
+  font-size: 0.25rem;
+  font-weight: 100;
+}
+.teacher {
+  margin: 0 auto;
+  color: white;
+  width: width;
+  height: 9.36rem;
+  background: url("../img/bg-3.png") no-repeat;
+  background-size: 100%;
+}
+.teacher p {
+  width: 4.7rem;
+  height: 1.0rem;
+  font-size: 0.35rem;
+  text-align: center;
+  margin: -2px auto;
+  padding-top: 0.7rem;
+}
+.teacher p span {
+  font-weight: bold;
+  color: #2EAB46;
+}
+.teacher ul {
+  margin-top: 1.25rem;
+  margin-left: 0.7rem;
+}
+.teacher ul li {
+  margin-top: 0.56rem;
+  width: 5.88rem;
+  height: 1.53rem;
+  display: block;
+}
+.teacher ul li span {
+  display: inline-block;
+  font-weight: lighter;
+  margin-left: 0.2rem;
+}
+.teacher ul li em {
+  color: #2EAB46;
+}
+.teacher ul li i {
+  width: 1.0rem;
+  height: 0.3rem;
+  background-color: #2EAB46;
+  font-size: 0.2rem;
+  display: inline-block;
+  text-align: center;
+  border-radius: 1rem;
+  color: black;
+  position: relative;
+  bottom: 0.05rem;
+}
+.teacher ul img {
+  display: inline-block;
+  width: 1.53rem;
+  height: 1.53rem;
+  border-radius: 1.53rem;
 }
