@@ -21,92 +21,93 @@ i {
   font-style: normal;
 }
 .homepage {
+  margin: 0 auto;
   color: white;
-  width: width;
-  height: 6.84rem;
+  width: 10rem;
+  height: 10.6875rem;
   background: url("../img/bg-1.png") no-repeat;
   background-size: 100%;
 }
 .homepage img {
   display: block;
-  width: 1.36rem;
-  height: 0.48rem;
-  padding: 0.2rem 0.3rem;
-  margin-left: 0.2rem;
+  width: 2.125rem;
+  height: 0.75rem;
+  padding: 0.3125rem 0.46875rem;
+  margin-left: 0.3125rem;
   background-color: #2EAB46;
-  border-radius: 0 0 0.2rem 0;
+  border-radius: 0 0 0.3125rem 0;
 }
 .homepage span {
-  font-size: 0.3rem;
+  font-size: 0.46875rem;
   font-weight: lighter;
 }
 .homepage span i {
   position: relative;
-  top: 0.02rem;
-  margin-right: 0.1rem;
+  top: 0.03125rem;
+  margin-right: 0.15625rem;
   display: inline-block;
-  width: 0.4rem;
-  height: 0.4rem;
+  width: 0.625rem;
+  height: 0.625rem;
   background-size: 130%;
   background-image: url("../img/nike-logo.png");
-  background-position: 0 0 ;
+  background-position: 0 0;
 }
 .homepage input {
   display: block;
-  font-size: 0.25rem;
+  font-size: 0.390625rem;
   border-style: none;
-  width: 5.28rem;
-  height: 0.9rem;
-  padding-left: 0.2rem;
-  border-radius: 0.15rem;
-  margin: 0.2rem auto;
+  width: 8.25rem;
+  height: 1.40625rem;
+  padding-left: 0.3125rem;
+  border-radius: 0.234375rem;
+  margin: 0.3125rem auto;
   font-weight: lighter;
-  box-shadow: 0 0 0.1rem #000000;
+  box-shadow: 0 0 0.15625rem #000000;
   position: relative;
 }
 .homepage button {
   display: block;
-  width: 5.58rem;
-  height: 1rem;
-  font-size: 0.42rem;
+  width: 8.71875rem;
+  height: 1.5625rem;
+  font-size: 0.65625rem;
   margin: 0 auto;
   color: white;
   border-style: none;
-  border-radius: 0.15rem;
-  box-shadow: 0 0 0.1rem #000000;
+  border-radius: 0.234375rem;
+  box-shadow: 0 0 0.15625rem #000000;
   background-color: #DE1321;
 }
 .top-contend {
-  margin: 0.2rem auto;
+  margin: 0.3125rem auto;
   text-align: center;
-  font-size: 0.45rem;
+  font-size: 0.703125rem;
 }
 .top-title {
   display: inline-block;
-  font-size: 0.25rem;
-  padding: 0.2rem 0;
+  font-size: 0.390625rem;
+  padding: 0.3125rem 0;
   border-top: 0.1px solid #ccc;
   border-bottom: 0.1px solid #ccc;
 }
 .top-middle {
-  margin: 0.1rem auto;
+  margin: 0.15625rem auto;
 }
 .phone-number-tip {
-  font-size: 0.25rem;
+  font-size: 0.390625rem;
   display: block;
   font-style: normal;
   float: right;
   position: absolute;
-  right: 0.5rem;
-  top: 4.5rem;
+  right: 0.78125rem;
+  top: 7.03125rem;
   color: red;
   font-weight: lighter;
 }
 .resume {
   margin: -1px auto;
   color: white;
-  width: width;
-  height: 5.67rem;
+  width: 10rem;
+  height: 8.859375rem;
   background: url("../img/bg-2.png") no-repeat;
   background-size: 100%;
   display: block;
@@ -114,9 +115,9 @@ i {
 .resume p {
   display: inline-block;
   margin: 0 auto;
-  font-size: 0.33rem;
-  margin-top: 0.5rem;
-  margin-left: 1.6rem;
+  font-size: 0.515625rem;
+  margin-top: 0.78125rem;
+  margin-left: 2.5rem;
 }
 .resume p span {
   color: #2EAB46;
@@ -124,70 +125,288 @@ i {
 }
 .resume img {
   display: block;
-  width: 1.36rem;
-  height: 0.48rem;
-  margin-top: 0.8rem;
-  margin-right: 0.3rem;
+  width: 2.125rem;
+  height: 0.75rem;
+  margin-top: 1.25rem;
+  margin-right: 0.46875rem;
   float: right;
 }
 #resume-contend {
-  width: 4.3rem;
-  font-size: 0.25rem;
+  width: 6.71875rem;
+  font-size: 0.390625rem;
   font-weight: 100;
 }
 .teacher {
   margin: 0 auto;
   color: white;
-  width: width;
-  height: 9.36rem;
+  width: 10rem;
+  height: 14.625rem;
   background: url("../img/bg-3.png") no-repeat;
   background-size: 100%;
 }
-.teacher p {
-  width: 4.7rem;
-  height: 1.0rem;
-  font-size: 0.35rem;
+.teacher-title {
+  width: 7.34375rem;
+  height: 1.5625rem;
+  font-size: 0.546875rem;
   text-align: center;
   margin: -2px auto;
-  padding-top: 0.7rem;
+  padding-top: 1.09375rem;
 }
-.teacher p span {
-  font-weight: bold;
-  color: #2EAB46;
+.teacher-title span {
+  color: #22FF97;
 }
-.teacher ul {
+.teacher-photo {
+  width: 2.390625rem;
+  float: left;
+  margin-top: 1.875rem;
+}
+.teacher-photo img {
+  width: 2.390625rem;
+  height: 2.390625rem;
+  border-radius: 2.390625rem;
+  margin-left: 1.0625rem;
+  margin-top: 0.828125rem;
+}
+.teacher-info {
+  margin-top: 2.5rem;
+  margin-left: 3.90625rem;
+}
+.teacher-info ul {
+  height: 8.75rem;
+}
+.teacher-info ul li {
+  display: block;
   margin-top: 1.25rem;
-  margin-left: 0.7rem;
 }
-.teacher ul li {
-  margin-top: 0.56rem;
-  width: 5.88rem;
-  height: 1.53rem;
+.teacher-info ul li p {
   display: block;
 }
-.teacher ul li span {
-  display: inline-block;
-  font-weight: lighter;
-  margin-left: 0.2rem;
+.teacher-name {
+  font-size: 0.46875rem;
+  font-weight: bold;
 }
-.teacher ul li em {
-  color: #2EAB46;
-}
-.teacher ul li i {
-  width: 1.0rem;
-  height: 0.3rem;
-  background-color: #2EAB46;
-  font-size: 0.2rem;
-  display: inline-block;
-  text-align: center;
-  border-radius: 1rem;
+.teacher-exper {
+  width: 1.5625rem;
+  height: 0.3125rem;
+  background-color: #22FF97;
+  border-radius: 0.15625rem;
   color: black;
-  position: relative;
-  bottom: 0.05rem;
+  padding: 0 0.234375rem;
+  font-size: 0.21875rem;
 }
-.teacher ul img {
+.teacher-info1 {
+  font-size: 0.390625rem;
+  color: #22FF97;
+  font-weight: lighter;
+}
+.teacher-info2 {
+  font-size: 0.390625rem;
+  font-weight: lighter;
+}
+.skill {
+  margin: -2px auto;
+  width: 10rem;
+  height: 12.078125rem;
+  background-color: black;
+  color: white;
+}
+.skill video {
+  margin: 0 auto;
+  width: 10rem;
+  height: 8rem;
+  background-color: pink;
+}
+.skill-title {
   display: inline-block;
-  width: 1.53rem;
-  height: 1.53rem;
-  border-radius: 1.53rem;
+  margin-top: 1.09375rem;
+  margin-bottom: 0.625rem;
+  font-size: 0.578125rem;
+}
+.skill-title span {
+  color: #22FF97;
+}
+.skill-jike {
+  display: inline-block;
+  margin-top: -0.15625rem;
+  width: 2.96875rem;
+  height: 1.5625rem;
+  background-color: #2EAB46;
+}
+.skill-jike img {
+  display: block;
+  width: 1.796875rem;
+  margin: 0 auto;
+  padding-top: 0.46875rem;
+}
+.skill-footer {
+  display: inline-block;
+  margin-top: -0.15625rem;
+  width: 7.03125rem;
+  height: 1.5625rem;
+  background-color: #7449A2;
+  float: right;
+  color: black;
+  text-align: center;
+  padding-top: 0.40625rem;
+  font-size: 0.578125rem;
+}
+.skill-footer span {
+  color: white;
+}
+.develop {
+  background-color: #0E1A29;
+  width: 10rem;
+  height: 16.40625rem;
+  margin: 0 auto;
+  color: white;
+}
+.develop-title {
+  display: inline-block;
+  width: 6.25rem;
+  height: 1.953125rem;
+  font-size: 0.5625rem;
+  float: right;
+  text-align: right;
+  margin-top: 0.9375rem;
+  margin-right: 0.9375rem;
+  border-right: 0.078125rem solid #22FF97;
+  padding-right: 0.234375rem;
+}
+.develop-title span {
+  color: #22FF97;
+}
+.develop-contend {
+  padding-top: 2.296875rem;
+  padding-left: 0.828125rem;
+}
+.zero-base {
+  width: 1.984375rem;
+  height: 1.984375rem;
+  border-radius: 1.984375rem;
+  background-color: #7449A2;
+  text-align: center;
+  line-height: 1.984375rem;
+}
+.master {
+  width: 1.984375rem;
+  height: 1.984375rem;
+  border-radius: 1.984375rem;
+  background-color: #22FF97;
+  text-align: center;
+  color: black;
+  padding-top: 0.5rem;
+}
+.job {
+  width: 10rem;
+  height: 6.5625rem;
+  margin: 0 auto;
+  background: url("../img/bg-5.png") no-repeat;
+  background-size: 100%;
+  color: white;
+  font-size: 0.46875rem;
+  text-align: center;
+  padding-top: 1.40625rem;
+}
+.job ul {
+  margin-left: 0.15625rem;
+  margin-top: 0.4375rem;
+}
+.job ul li {
+  display: block;
+  float: left;
+  padding-top: 0.3125rem;
+  padding-left: 0.15625rem;
+}
+.job ul li img {
+  width: 4.421875rem;
+  height: 0.9375rem;
+  display: block;
+}
+.job span {
+  color: #22FF97;
+}
+.awards {
+  width: 10rem;
+  height: 17.5rem;
+  margin: 0 auto;
+  background-color: #171627;
+  color: white;
+}
+.awards-title {
+  text-align: center;
+  color: #22FF97;
+  font-size: 0.546875rem;
+}
+.awards-title2 {
+  font-size: 0.390625rem;
+}
+.awards-title2 img {
+  display: inline-block;
+  width: 1.5625rem;
+  height: 0.546875rem;
+  margin-left: 0.9375rem;
+}
+.awards-title2 span {
+  position: relative;
+  top: -0.15625rem;
+}
+.awards-tip {
+  margin: 0 auto;
+  font-size: 0.46875rem;
+  text-align: center;
+  font-weight: lighter;
+}
+.awards-tip p {
+  display: inline-block;
+}
+.awards-tip p span {
+  font-size: 0.625rem;
+  font-weight: bold;
+}
+.awards-tip2 {
+  text-align: center;
+  font-size: 0.390625rem;
+  margin-top: 1.09375rem;
+  color: #22FF97;
+}
+.awards-pic {
+  width: 10rem;
+  height: 3.90625rem;
+}
+.awards-pic ul {
+  width: 10rem;
+  height: 3.90625rem;
+  text-align: center;
+  margin-left: -0.15625rem;
+}
+.awards-pic ul li {
+  width: 2.015625rem;
+  height: 2.015625rem;
+  border-radius: 2.015625rem;
+  background: pink;
+  display: block;
+  float: left;
+  margin-left: 1.0625rem;
+  margin-top: 1.09375rem;
+}
+.awards-pic2 {
+  width: 10rem;
+  height: 8.125rem;
+}
+.awards-pic2 ul {
+  margin-left: 0.546875rem;
+}
+.awards-pic2 ul li {
+  display: block;
+  float: left;
+  margin-left: 0.46875rem;
+  margin-top: 0.3125rem;
+}
+.awards-pic2 ul li img {
+  width: 3.625rem;
+  height: 2.375rem;
+}
+.awards-pic2 ul li p {
+  font-size: 0.390625rem;
+  text-align: center;
 }
