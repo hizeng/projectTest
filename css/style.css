@@ -214,7 +214,7 @@ i {
   margin: 0 auto;
   width: 10rem;
   height: 8rem;
-  background-color: pink;
+  background-color: black;
 }
 .skill-title {
   display: inline-block;
@@ -279,6 +279,58 @@ i {
   padding-top: 2.296875rem;
   padding-left: 0.828125rem;
 }
+.solid {
+  position: absolute;
+  top: 1.875rem;
+  left: -1.3125rem;
+  z-index: 2;
+}
+.solid img {
+  display: inline-block;
+  margin-left: 0;
+  width: 0.078125rem;
+  height: 5.203125rem;
+}
+.develop-road {
+  display: inline-block;
+  margin-left: 2.25rem;
+  margin-top: 0.078125rem;
+  font-size: 0.390625rem;
+  position: relative;
+}
+.develop-road i {
+  display: block;
+  width: 0.546875rem;
+  height: 0.546875rem;
+  border-radius: 0.546875rem;
+  border: 0.015625rem solid white;
+  text-align: center;
+  font-size: 0.46875rem;
+  font-weight: lighter;
+  line-height: 0.546875rem;
+  position: relative;
+  right: 1.5625rem;
+  top: 0.46875rem;
+  background-color: #0E1A29;
+  transform: rotate(90deg);
+}
+.develop-road hr {
+  margin-left: -0.78125rem;
+  width: 2.34375rem;
+  display: inline-block;
+}
+.develop-road em {
+  display: inline-block;
+  width: 0.15625rem;
+  height: 0.15625rem;
+  background-color: white;
+  border-radius: 0.15625rem;
+  position: relative;
+  bottom: 0.15625rem;
+}
+.develop-road ul li span {
+  font-weight: lighter;
+}
 .zero-base {
   width: 1.984375rem;
   height: 1.984375rem;
@@ -286,8 +338,10 @@ i {
   background-color: #7449A2;
   text-align: center;
   line-height: 1.984375rem;
+  font-size: 0.390625rem;
 }
 .master {
+  font-size: 0.390625rem;
   width: 1.984375rem;
   height: 1.984375rem;
   border-radius: 1.984375rem;
@@ -295,6 +349,8 @@ i {
   text-align: center;
   color: black;
   padding-top: 0.5rem;
+  margin-top: -0.15625rem;
+  display: inline-block;
 }
 .job {
   width: 10rem;
@@ -389,6 +445,11 @@ i {
   margin-left: 1.0625rem;
   margin-top: 1.09375rem;
 }
+.awards-pic ul li img {
+  width: 2.015625rem;
+  height: 2.015625rem;
+  display: block;
+}
 .awards-pic2 {
   width: 10rem;
   height: 8.125rem;
@@ -409,4 +470,24 @@ i {
 .awards-pic2 ul li p {
   font-size: 0.390625rem;
   text-align: center;
+  font-weight: lighter;
+}
+.apply {
+  height: 2.421875rem;
+  width: 10rem;
+  background-color: #E91A06;
+}
+.apply button {
+  display: block;
+  width: 8.625rem;
+  height: 1.25rem;
+  font-size: 0.65625rem;
+  margin: 0 auto;
+  color: white;
+  border-style: none;
+  border-radius: 0.234375rem;
+  box-shadow: 0 0 0.078125rem #E95F15;
+  background-color: #E95F15;
+  position: relative;
+  top: 0.46875rem;
 }
