@@ -25,15 +25,13 @@ i {
   color: white;
   width: 10rem;
   height: 10.6875rem;
-  background: url("../img/bg-1.png") no-repeat;
+  background: url("../img/bgg1.jpg") no-repeat;
   background-size: 100%;
 }
 .homepage img {
   display: block;
-  width: 2.125rem;
-  padding: 0.3125rem 0.46875rem;
+  width: 3.0625rem;
   margin-left: 0.3125rem;
-  background-color: #2EAB46;
   border-radius: 0 0 0.3125rem 0;
 }
 .homepage span {
@@ -57,22 +55,23 @@ i {
 }
 .homepage input {
   display: block;
-  font-size: 0.390625rem;
+  font-size: 0.46875rem;
   border-style: none;
   width: 8.71875rem;
-  height: 1.5625rem;
+  height: 1.453125rem;
   padding-left: 0.3125rem;
   border-radius: 0.234375rem;
   margin: 0rem auto;
   font-weight: lighter;
   box-shadow: 0 0 0.15625rem #000000;
+  color: black;
 }
 .homepage button {
   position: relative;
   top: 0.3125rem;
   display: block;
   width: 8.71875rem;
-  height: 1.5625rem;
+  height: 1.453125rem;
   font-size: 0.65625rem;
   margin: 0 auto;
   color: white;
@@ -97,12 +96,14 @@ i {
   line-height: 0.703125rem;
   margin-top: 0.46875rem;
   font-size: 0.703125rem;
+  font-weight: 500;
 }
 .top-middle2 {
   height: 0.703125rem;
   line-height: 0.703125rem;
   margin-top: 0.3125rem;
   font-size: 0.703125rem;
+  font-weight: 500;
 }
 .phone-get {
   position: relative;
@@ -115,7 +116,7 @@ i {
   position: absolute;
   z-index: 2;
   right: 0.78125rem;
-  top: 0.546875rem;
+  top: 0.46875rem;
   color: red;
   font-weight: lighter;
 }
@@ -136,21 +137,22 @@ i {
   margin-left: 2.5rem;
 }
 .resume p span {
-  color: #2EAB46;
-  font-weight: bold;
+  color: #22FF97;
+  font-weight: 300;
 }
 .resume img {
   display: block;
   width: 2.125rem;
   height: 0.75rem;
-  margin-top: 1.25rem;
-  margin-right: 0.46875rem;
+  margin-top: 0.78125rem;
+  margin-right: 0.546875rem;
   float: right;
 }
 #resume-contend {
-  width: 6.71875rem;
-  font-size: 0.390625rem;
+  width: 6.40625rem;
+  font-size: 0.375rem;
   font-weight: 100;
+  line-height: 1.8;
 }
 .teacher {
   margin: 0 auto;
@@ -169,6 +171,7 @@ i {
   padding-top: 1.09375rem;
 }
 .teacher-title span {
+  font-weight: 600;
   color: #22FF97;
 }
 .teacher-photo {
@@ -202,13 +205,16 @@ i {
   font-weight: bold;
 }
 .teacher-exper {
+  display: inline-block;
   width: 1.5625rem;
-  height: 0.3125rem;
+  text-align: center;
   background-color: #22FF97;
   border-radius: 0.15625rem;
   color: black;
-  padding: 0 0.234375rem;
-  font-size: 0.21875rem;
+  font-size: 0.3125rem;
+  font-weight: lighter;
+  position: relative;
+  bottom: 0.046875rem;
 }
 .teacher-info1 {
   font-size: 0.390625rem;

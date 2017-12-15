@@ -38,22 +38,19 @@ i {
     color: white;
     width: 640/@ppr;
     height: 684/@ppr;
-    background: url("@{bg}/bg-1.png") no-repeat;
+    background: url("@{bg}/bgg1.jpg") no-repeat;
     background-size: 100%;
 
     img {
         display: block;
-        width: 136/@ppr;
-
-        padding: 20/@ppr 30/@ppr;
+        width: 196/@ppr;
         margin-left: 20/@ppr;
-        background-color: @themecolor;
         border-radius: 0 0 20/@ppr 0;
     }
     span {
         display: inline-block;
         font-size: 30/@ppr;
-        font-weight: lighter;
+        font-weight:lighter;
         height: 30/@ppr;
         line-height: 30/@ppr;
         margin-top: 40/@ppr;
@@ -74,22 +71,23 @@ i {
     }
     input {
         display: block;
-        font-size: 25/@ppr;
+        font-size: 30/@ppr;
         border-style: none;
         width: 558/@ppr;
-        height: 100/@ppr;
+        height: 93/@ppr;
         padding-left: 20/@ppr;
         border-radius: 15/@ppr;
         margin: 0/@ppr auto;
         font-weight: lighter;
         box-shadow: 0 0 10/@ppr #000000;
+        color:black;
     }
     button {
         position: relative;
         top: 20/@ppr;
         display: block;
         width: 558/@ppr;
-        height: 100/@ppr;
+        height: 93/@ppr;
         font-size: 42/@ppr;
         margin: 0 auto;
         color: white;
@@ -118,6 +116,7 @@ i {
     line-height: 45/@ppr;
     margin-top: 30/@ppr;
     font-size: 45/@ppr;
+    font-weight:500;
 }
 
 .top-middle2 {
@@ -125,6 +124,7 @@ i {
     line-height: 45/@ppr;
     margin-top: 20/@ppr;
     font-size: 45/@ppr;
+    font-weight:500;
 }
 
 .phone-get {
@@ -140,7 +140,7 @@ i {
     z-index: 2;
 
     right: 50/@ppr;
-    top: 35/@ppr;
+    top: 30/@ppr;
     color: red;
     font-weight: lighter;
 }
@@ -160,24 +160,25 @@ i {
         margin-top: 50/@ppr;
         margin-left: 160/@ppr;
         span {
-            color: @themecolor;
-            font-weight: bold;
+            color: #22FF97;
+            font-weight: 300;
         }
     }
     img {
         display: block;
         width: 136/@ppr;
         height: 48/@ppr;
-        margin-top: 80/@ppr;
-        margin-right: 30/@ppr;
+        margin-top: 50/@ppr;
+        margin-right: 35/@ppr;
         float: right;
     }
 }
 
 #resume-contend {
-    width: 430/@ppr;
-    font-size: 25/@ppr;
+    width: 410/@ppr;
+    font-size: 24/@ppr;
     font-weight: 100;
+    line-height: 1.8;
 }
 
 
@@ -199,6 +200,7 @@ i {
     margin: -2px auto;
     padding-top: 70/@ppr;
     span {
+    	font-weight:600;
         color: #22FF97;
     }
 }
@@ -238,13 +240,17 @@ i {
 }
 
 .teacher-exper {
+	display:inline-block;
     width: 100/@ppr;
-    height: 20/@ppr;
+    // height: 20/@ppr;
+    text-align:center;
     background-color: #22FF97;
     border-radius: 10/@ppr;
     color: black;
-    padding: 0 15/@ppr;
-    font-size: 14/@ppr;
+    font-size: 20/@ppr;
+    font-weight:lighter;
+    position:relative;
+    bottom:3/@ppr;
 }
 
 .teacher-info1 {
