@@ -31,15 +31,18 @@ i {
 .homepage img {
   display: block;
   width: 2.125rem;
-  height: 0.75rem;
   padding: 0.3125rem 0.46875rem;
   margin-left: 0.3125rem;
   background-color: #2EAB46;
   border-radius: 0 0 0.3125rem 0;
 }
 .homepage span {
+  display: inline-block;
   font-size: 0.46875rem;
   font-weight: lighter;
+  height: 0.46875rem;
+  line-height: 0.46875rem;
+  margin-top: 0.625rem;
 }
 .homepage span i {
   position: relative;
@@ -56,16 +59,17 @@ i {
   display: block;
   font-size: 0.390625rem;
   border-style: none;
-  width: 8.25rem;
-  height: 1.40625rem;
+  width: 8.71875rem;
+  height: 1.5625rem;
   padding-left: 0.3125rem;
   border-radius: 0.234375rem;
-  margin: 0.3125rem auto;
+  margin: 0rem auto;
   font-weight: lighter;
   box-shadow: 0 0 0.15625rem #000000;
-  position: relative;
 }
 .homepage button {
+  position: relative;
+  top: 0.3125rem;
   display: block;
   width: 8.71875rem;
   height: 1.5625rem;
@@ -78,9 +82,8 @@ i {
   background-color: #DE1321;
 }
 .top-contend {
-  margin: 0.3125rem auto;
+  margin-top: 0.46875rem;
   text-align: center;
-  font-size: 0.703125rem;
 }
 .top-title {
   display: inline-block;
@@ -90,16 +93,29 @@ i {
   border-bottom: 0.1px solid #ccc;
 }
 .top-middle {
-  margin: 0.15625rem auto;
+  height: 0.703125rem;
+  line-height: 0.703125rem;
+  margin-top: 0.46875rem;
+  font-size: 0.703125rem;
+}
+.top-middle2 {
+  height: 0.703125rem;
+  line-height: 0.703125rem;
+  margin-top: 0.3125rem;
+  font-size: 0.703125rem;
+}
+.phone-get {
+  position: relative;
+  margin-top: 0.46875rem;
 }
 .phone-number-tip {
   font-size: 0.390625rem;
   display: block;
   font-style: normal;
-  float: right;
   position: absolute;
+  z-index: 2;
   right: 0.78125rem;
-  top: 7.03125rem;
+  top: 0.546875rem;
   color: red;
   font-weight: lighter;
 }
@@ -227,7 +243,6 @@ i {
 }
 .skill-jike {
   display: inline-block;
-  margin-top: -0.15625rem;
   width: 2.96875rem;
   height: 1.5625rem;
   background-color: #2EAB46;
@@ -240,7 +255,6 @@ i {
 }
 .skill-footer {
   display: inline-block;
-  margin-top: -0.15625rem;
   width: 7.03125rem;
   height: 1.5625rem;
   background-color: #7449A2;
@@ -354,7 +368,7 @@ i {
 }
 .job {
   width: 10rem;
-  height: 6.5625rem;
+  height: 8.125rem;
   margin: 0 auto;
   background: url("../img/bg-5.png") no-repeat;
   background-size: 100%;
@@ -384,7 +398,7 @@ i {
 .awards {
   width: 10rem;
   height: 17.5rem;
-  margin: 0 auto;
+  margin: -2px auto;
   background-color: #171627;
   color: white;
 }
@@ -394,6 +408,7 @@ i {
   font-size: 0.546875rem;
 }
 .awards-title2 {
+  height: 0.4375rem;
   font-size: 0.390625rem;
 }
 .awards-title2 img {
@@ -401,10 +416,6 @@ i {
   width: 1.5625rem;
   height: 0.546875rem;
   margin-left: 0.9375rem;
-}
-.awards-title2 span {
-  position: relative;
-  top: -0.15625rem;
 }
 .awards-tip {
   margin: 0 auto;
@@ -476,6 +487,7 @@ i {
   height: 2.421875rem;
   width: 10rem;
   background-color: #E91A06;
+  margin: 0 auto;
 }
 .apply button {
   display: block;

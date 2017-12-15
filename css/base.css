@@ -119,8 +119,8 @@ textarea,
 select,
 button,
 table {
-  font-size: 0.21875px;
-  line-height: 0.21875px;
+  font-size: 0.25rem;
+  line-height: 1.4;
 }
 input[type="button"],
 input[type="reset"],
