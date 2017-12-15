@@ -469,7 +469,7 @@ i {
 }
 .awards-pic2 {
   width: 10rem;
-  height: 8.125rem;
+  height: 10.546875rem;
 }
 .awards-pic2 ul {
   margin-left: 0.546875rem;
@@ -496,6 +496,7 @@ i {
   margin: 0 auto;
   position: fixed;
   bottom: 0rem;
+  z-index: 999;
 }
 .apply button {
   display: block;
