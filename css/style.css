@@ -494,6 +494,8 @@ i {
   width: 10rem;
   background-color: #E91A06;
   margin: 0 auto;
+  position: fixed;
+  bottom: 0rem;
 }
 .apply button {
   display: block;
@@ -507,5 +509,5 @@ i {
   box-shadow: 0 0 0.078125rem #E95F15;
   background-color: #E95F15;
   position: relative;
-  top: 0.46875rem;
+  top: 0.625rem;
 }
