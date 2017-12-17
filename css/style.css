@@ -123,7 +123,7 @@ i {
   font-weight: 200;
 }
 .resume {
-  margin: -1px auto;
+  margin: -2px auto;
   color: white;
   width: 10rem;
   height: 8.859375rem;
@@ -231,7 +231,7 @@ i {
   background-color: #0E1A29;
   width: 10rem;
   height: 16.40625rem;
-  margin: 0 auto;
+  margin: -2px auto;
   color: white;
 }
 .develop-title {
@@ -248,6 +248,7 @@ i {
 }
 .develop-title span {
   color: #22FF97;
+  font-weight: 500;
 }
 .develop-contend {
   padding-top: 2.296875rem;
@@ -255,14 +256,14 @@ i {
 }
 .solid {
   position: absolute;
-  top: 1.5625rem;
+  top: 1.875rem;
   left: -1.3125rem;
 }
 .solid img {
   display: inline-block;
   margin-left: 0;
   width: 0.078125rem;
-  height: 4.421875rem;
+  height: 5.203125rem;
 }
 .develop-road {
   display: inline-block;
@@ -278,7 +279,7 @@ i {
   border-radius: 0.546875rem;
   border: 0.015625rem solid white;
   text-align: center;
-  font-size: 0.46875rem;
+  font-size: 0.3125rem;
   font-weight: lighter;
   line-height: 0.546875rem;
   position: relative;
@@ -286,6 +287,14 @@ i {
   top: 0.46875rem;
   background-color: #0E1A29;
   transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(90deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(90deg);
+  /* Opera */
 }
 .develop-road em {
   display: inline-block;
@@ -297,11 +306,14 @@ i {
   bottom: 0.90625rem;
   right: -1.28125rem;
 }
+.develop-road ul li {
+  padding-top: 0.234375rem;
+}
 .develop-road ul li p {
   display: inline-block;
   width: 6.25rem;
   line-height: 0.40625rem;
-  font-size: 0.40625rem;
+  font-size: 0.359375rem;
   position: relative;
   top: 0.46875rem;
 }

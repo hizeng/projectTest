@@ -147,7 +147,7 @@ i {
 }
 
 .resume {
-    margin: -1px auto;
+    margin: -2px auto;
     color: white;
     width: 640/@ppr;
     height: 567/@ppr;
@@ -269,7 +269,7 @@ i {
     background-color: #0E1A29;
     width: 640/@ppr;
     height: 1050/@ppr;
-    margin: 0 auto;
+    margin: -2px auto;
     color: white;
 }
 
@@ -286,6 +286,7 @@ i {
     padding-right: 15/@ppr;
     span {
         color: #22FF97;
+        font-weight:500;
     }
 }
 
@@ -296,13 +297,13 @@ i {
 
 .solid {
     position: absolute;
-    top: 100/@ppr;
+    top: 120/@ppr;
     left: -84/@ppr;
     img {
         display: inline-block;
         margin-left: 0;
         width: 5/@ppr;
-        height: 283/@ppr;
+        height: 333/@ppr;
     }
 }
 
@@ -319,7 +320,7 @@ i {
         border-radius: 35/@ppr;
         border: 1/@ppr solid white;
         text-align: center;
-        font-size: 30/@ppr;
+        font-size: 20/@ppr;
         font-weight: lighter;
         line-height: 35/@ppr;
         position: relative;
@@ -327,7 +328,11 @@ i {
         top: 30/@ppr;
         background-color: #0E1A29;
         transform: rotate(90deg);
-    }
+        -ms-transform:rotate(90deg); 	/* IE 9 */
+		-moz-transform:rotate(90deg); 	/* Firefox */
+		-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+		-o-transform:rotate(90deg); 	/* Opera */
+		    }
 
     
     em {
@@ -342,11 +347,12 @@ i {
     }
     ul {
         li {
+        	padding-top:15/@ppr;
         	p{
         		display:inline-block;
         		width:400/@ppr;
         		line-height:26/@ppr;
-        		font-size:26/@ppr;
+        		font-size:23/@ppr;
         		position:relative;
         		top:30/@ppr;
         	}
