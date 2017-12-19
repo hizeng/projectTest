@@ -33,7 +33,7 @@ i {
 }
 
 
-.homepage-container {
+.banner-container{
 	position:relative;
     margin: 0 auto;
     color: white;
@@ -102,13 +102,13 @@ i {
     }
 }
 
-.homepage-title {
+.banner-main {
     position:relative;
     top:116/@ppr;
     text-align: center;
 }
 
-.homepage-title-1{
+.banner-title{
     display: inline-block;
     height: 68/@ppr;
     line-height: 68/@ppr;
@@ -117,7 +117,7 @@ i {
     border-top: 0.1/@ppr solid #ccc;
     border-bottom: 0.1/@ppr solid #ccc;
 }
-.homepage-title-2 {
+.banner-subtitle {
     height: 48/@ppr;
     line-height: 48/@ppr;
     margin-top: 30/@ppr;
@@ -125,7 +125,7 @@ i {
     font-weight: 500;
 }
 
-.homepage-title-3 {
+.banner-slogan {
     height: 48/@ppr;
     line-height: 48/@ppr;
     margin-top: 20/@ppr;
@@ -133,12 +133,12 @@ i {
     font-weight: 500;
 }
 
-.homepage-component{
+.banner-component{
     position: relative;
     margin-top: 140/@ppr;
 }
 
-.homepage-component-error {
+.banner-component-msg{
     font-size: 24/@ppr;
     display: block;
     font-style: normal;
@@ -211,7 +211,7 @@ i {
     }
 }
 
-.teacher-photo {
+.teacher-img{
     width: 153/@ppr;
     float: left;
     margin-top: 120/@ppr;
@@ -245,7 +245,7 @@ i {
     font-weight: 500;
 }
 
-.teacher-exper-item {
+.teacher-experience {
     display: inline-block;
     width: 100/@ppr; 
     text-align: center;
@@ -258,13 +258,13 @@ i {
     bottom: 3/@ppr;
 }
 
-.teacher-info1 {
+.teacher-jobtitle{
     font-size: 25/@ppr;
     color: #22FF97;
     font-weight: 200;
 }
 
-.teacher-info2 {
+.teacher-summary {
     font-size: 25/@ppr;
     font-weight: 200;
 }
@@ -280,13 +280,13 @@ i {
 
 .develop-title {
     display: inline-block;
-    width: 400/@ppr;
+    width: 410/@ppr;
     height: 125/@ppr;
     font-size: 36/@ppr;
     float: right;
     text-align: right;
     margin-top: 60/@ppr;
-    margin-right: 60/@ppr;
+    margin-right: 34/@ppr;
     border-right: 5/@ppr solid #22FF97;
     padding-right: 15/@ppr;
     span {
@@ -299,7 +299,7 @@ i {
     padding-top: 147/@ppr;
     padding-left: 53/@ppr;
 }
-.develop-dotted-item {
+.develop-dotted-icon {
     position: absolute;
     top: 120/@ppr;
     left: -84/@ppr;
@@ -311,7 +311,7 @@ i {
     }
 }
 
-.develop-list {
+.develop-path{
     display: inline-block;
     margin-left: 144/@ppr;
     margin-top: 5/@ppr;
@@ -338,17 +338,6 @@ i {
 		-o-transform:rotate(90deg); 	/* Opera */
 		    }
 
-    
-    em {
-        display: inline-block;
-        width: 10/@ppr;
-        height: 10/@ppr;
-        background-color: white;
-        border-radius: 10/@ppr;
-        position: relative;
-        bottom: 58/@ppr;
-        right:-82/@ppr;
-    }
     ul {
         li {
         	padding-top:15/@ppr;
@@ -375,11 +364,22 @@ i {
 			    height: 1px;
 
             }
+            span:after{
+                content: '';
+                position: absolute;
+			    top: -82%;
+			    left:22%;
+			    background: #a09c9c;			   
+			    width: 10/@ppr;
+			    height: 10/@ppr;
+			    background-color: white;
+			    border-radius: 10/@ppr;    
+            }
         }
     }
 }
 
-.develop-base-item {
+.develop-base-icon {
     width: 127/@ppr;
     height: 127/@ppr;
     border-radius: 127/@ppr;
@@ -389,7 +389,7 @@ i {
     font-size: 25/@ppr;
 }
 
-.develop-master-item{
+.develop-engineer-icon{
     font-size: 25/@ppr;
     width: 127/@ppr;
     height: 127/@ppr;
@@ -449,7 +449,7 @@ i {
 
 }
 
-.awards-title-1 {
+.awards-title {
     padding-top:75/@ppr;
     text-align: center;
     color: #22FF97;
@@ -457,7 +457,7 @@ i {
     font-weight:500;
 }
 
-.awards-title-2 {
+.awards-subtitle {
     height: 28/@ppr;
     font-size: 25/@ppr;
     font-weight:400;
@@ -487,7 +487,7 @@ i {
     }
 }
 
-.awards-title-3 {
+.awards-summary {
 
     text-align: center;
     font-size: 25/@ppr;
@@ -496,7 +496,7 @@ i {
     color: #22FF97;
 }
 
-.awards-item {
+.awards-icon {
     width: 640/@ppr;
     height: 250/@ppr;
     ul {
