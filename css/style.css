@@ -370,7 +370,7 @@ i {
   padding-top: 1.40625rem;
 }
 .job-container ul {
-  margin-left: 0.15625rem;
+  margin-left: 0.3125rem;
   margin-top: 0.4375rem;
 }
 .job-container ul li {
@@ -458,7 +458,7 @@ i {
 }
 .awards-content {
   width: 10rem;
-  height: 10.546875rem;
+  height: 10.984375rem;
   margin: 0 auto;
 }
 .awards-content ul {
@@ -478,6 +478,7 @@ i {
   font-size: 0.375rem;
   text-align: center;
   font-weight: 400;
+  margin-top: 0.21875rem;
 }
 .footer {
   height: 2.421875rem;
