@@ -46,17 +46,6 @@ i {
   line-height: 0.46875rem;
   margin-top: 0.46875rem;
 }
-.banner-container span i {
-  position: relative;
-  top: 0.03125rem;
-  margin-right: 0.15625rem;
-  display: inline-block;
-  width: 0.625rem;
-  height: 0.625rem;
-  background-size: 130%;
-  background-image: url("../img/nike-logo.png");
-  background-position: 0 0;
-}
 .banner-container input {
   display: block;
   font-size: 0.46875rem;
@@ -85,6 +74,8 @@ i {
   background-color: #DE1321;
 }
 .banner-main {
+  width: 10rem;
+  height: 3.1875rem;
   position: relative;
   top: 1.8125rem;
   text-align: center;
@@ -99,22 +90,37 @@ i {
   border-bottom: 0.0015625rem solid #ccc;
 }
 .banner-subtitle {
-  height: 0.75rem;
-  line-height: 0.75rem;
+  height: 1.5rem;
+  line-height: 1.2;
   margin-top: 0.46875rem;
-  font-size: 0.75rem;
+  font-size: 0.78125rem;
   font-weight: 500;
 }
-.banner-slogan {
-  height: 0.75rem;
-  line-height: 0.75rem;
-  margin-top: 0.3125rem;
-  font-size: 0.75rem;
-  font-weight: 500;
+.banner-selling-point {
+  width: 10rem;
+  height: 0.625rem;
+  margin-top: 0.53125rem;
+}
+.banner-selling-point ul li {
+  font-size: 0.4375rem;
+  display: inline-block;
+}
+.banner-selling-point ul li i {
+  position: relative;
+  top: 0.03125rem;
+  margin-right: 0.15625rem;
+  display: inline-block;
+  width: 0.625rem;
+  height: 0.625rem;
+  background-size: 130%;
+  background-image: url("../img/nike-logo.png");
+  background-position: 0 0;
 }
 .banner-component {
   position: relative;
-  margin-top: 2.1875rem;
+  margin-top: 3.40625rem;
+  width: 10rem;
+  height: 3.28125rem;
 }
 .banner-component-msg {
   font-size: 0.375rem;
@@ -182,20 +188,8 @@ i {
   font-weight: 600;
   color: #22FF97;
 }
-.teacher-img {
-  width: 2.390625rem;
-  float: left;
-  margin-top: 1.875rem;
-}
-.teacher-img img {
-  width: 2.390625rem;
-  height: 2.390625rem;
-  border-radius: 2.390625rem;
-  margin-left: 1.0625rem;
-  margin-top: 0.828125rem;
-}
 .teacher-description {
-  margin-top: 2.5rem;
+  margin-top: 1.296875rem;
   margin-left: 3.90625rem;
 }
 .teacher-description ul {
@@ -203,7 +197,7 @@ i {
 }
 .teacher-description ul li {
   display: block;
-  margin-top: 1.25rem;
+  margin-top: -1.25rem;
 }
 .teacher-description ul li p {
   display: block;
@@ -211,6 +205,15 @@ i {
 .teacher-name {
   font-size: 0.46875rem;
   font-weight: 500;
+}
+.teacher-name img {
+  display: block;
+  width: 2.390625rem;
+  height: 2.390625rem;
+  border-radius: 2.390625rem;
+  position: relative;
+  top: 2.34375rem;
+  right: 2.859375rem;
 }
 .teacher-experience {
   display: inline-block;
@@ -229,7 +232,7 @@ i {
   color: #22FF97;
   font-weight: 200;
 }
-.teacher-summary {
+.teacher-workload {
   font-size: 0.390625rem;
   font-weight: 200;
 }
@@ -308,35 +311,33 @@ i {
 .develop-path ul li p {
   display: inline-block;
   width: 6.25rem;
-  line-height: 0.40625rem;
+  line-height: 1.8;
   font-size: 0.359375rem;
   position: relative;
   top: 0.46875rem;
 }
-.develop-path ul li span {
-  display: block;
-  font-weight: lighter;
-  position: relative;
-}
-.develop-path ul li span:before {
+.develop-path ul li i:before {
   content: '';
   position: absolute;
-  top: -72%;
-  left: -12%;
+  top: -473%;
+  left: 32%;
   background: #a09c9c;
-  width: 34%;
-  height: 1px;
+  width: 4%;
+  height: 2.171875rem;
 }
-.develop-path ul li span:after {
+.develop-path ul li i:after {
   content: '';
   position: absolute;
-  top: -82%;
+  top: -500%;
   left: 22%;
   background: #a09c9c;
   width: 0.15625rem;
   height: 0.15625rem;
   background-color: white;
   border-radius: 0.15625rem;
+}
+.develop-descriotion {
+  line-height: 1.2;
 }
 .develop-base-icon {
   width: 1.984375rem;
@@ -412,29 +413,16 @@ i {
   height: 0.546875rem;
   margin-left: 0.9375rem;
 }
-.awards-description {
-  font-size: 0.375rem;
-  text-align: center;
-  font-weight: 200;
-  margin-left: -0.625rem;
-}
-.awards-description p {
-  display: inline-block;
-  margin-left: 0.828125rem;
-}
-.awards-description p span {
-  font-size: 0.71875rem;
-}
 .awards-summary {
   text-align: center;
   font-size: 0.390625rem;
   font-weight: 400;
-  margin-top: 1.09375rem;
+  margin-top: 0.46875rem;
   color: #22FF97;
 }
 .awards-icon {
   width: 10rem;
-  height: 3.90625rem;
+  height: 6.09375rem;
 }
 .awards-icon ul {
   width: 10rem;
@@ -443,10 +431,8 @@ i {
   margin-left: -0.15625rem;
 }
 .awards-icon ul li {
-  width: 2.015625rem;
+  width: 2.1875rem;
   height: 2.015625rem;
-  border-radius: 2.015625rem;
-  background: pink;
   display: block;
   float: left;
   margin-left: 1.0625rem;
@@ -456,6 +442,18 @@ i {
   width: 2.015625rem;
   height: 2.015625rem;
   display: block;
+}
+.awards-icon ul li p {
+  display: block;
+  width: 2.703125rem;
+  height: 1.25rem;
+  font-weight: lighter;
+  margin-top: 0.734375rem;
+  position: relative;
+  right: 0.3125rem;
+}
+.awards-icon ul li p span {
+  font-size: 0.71875rem;
 }
 .awards-content {
   width: 10rem;

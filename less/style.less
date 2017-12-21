@@ -61,17 +61,7 @@ i {
 
 
 
-        i {
-            position: relative;
-            top: 2/@ppr;
-            margin-right: 10/@ppr;
-            display: inline-block;
-            width: 40/@ppr;
-            height: 40/@ppr;
-            background-size: 130%;
-            background-image:url("@{bg}/nike-logo.png");
-            background-position: 0 0;
-        }
+       
     }
     input {
         display: block;
@@ -103,6 +93,8 @@ i {
 }
 
 .banner-main {
+	width:640/@ppr;
+	height:204/@ppr;
     position:relative;
     top:116/@ppr;
     text-align: center;
@@ -118,24 +110,40 @@ i {
     border-bottom: 0.1/@ppr solid #ccc;
 }
 .banner-subtitle {
-    height: 48/@ppr;
-    line-height: 48/@ppr;
+    height: 96/@ppr;
+    line-height:1.2;
     margin-top: 30/@ppr;
-    font-size: 48/@ppr;
+    font-size: 50/@ppr;
     font-weight: 500;
 }
-
-.banner-slogan {
-    height: 48/@ppr;
-    line-height: 48/@ppr;
-    margin-top: 20/@ppr;
-    font-size: 48/@ppr;
-    font-weight: 500;
+.banner-selling-point{
+	width:640/@ppr;
+	height:40/@ppr;
+	margin-top:34/@ppr;
+	ul{
+		li{
+			font-size:28/@ppr;
+			display:inline-block;
+			 i {
+            position: relative;
+            top: 2/@ppr;
+            margin-right: 10/@ppr;
+            display: inline-block;
+            width: 40/@ppr;
+            height: 40/@ppr;
+            background-size: 130%;
+            background-image:url("@{bg}/nike-logo.png");
+            background-position: 0 0;
+        }
+		}
+	}
 }
 
 .banner-component{
-    position: relative;
-    margin-top: 140/@ppr;
+    position: relative;   
+    margin-top: 218/@ppr;
+    width:640/@ppr;
+    height:210/@ppr;
 }
 
 .banner-component-msg{
@@ -211,27 +219,15 @@ i {
     }
 }
 
-.teacher-img{
-    width: 153/@ppr;
-    float: left;
-    margin-top: 120/@ppr;
-    img {
-        width: 153/@ppr;
-        height: 153/@ppr;
-        border-radius: 153/@ppr;
-        margin-left: 68/@ppr;
-        margin-top: 53/@ppr;
-    }
-}
 
 .teacher-description {
-    margin-top: 160/@ppr;
+    margin-top: 83/@ppr;
     margin-left: 250/@ppr;
     ul {
         height: 560/@ppr;
         li {
             display: block;
-            margin-top: 80/@ppr;
+            margin-top: -80/@ppr;
 
             p {
                 display: block;
@@ -243,6 +239,15 @@ i {
 .teacher-name {
     font-size: 30/@ppr;
     font-weight: 500;
+    img{
+    	display:block;
+    	width: 153/@ppr;
+        height: 153/@ppr;
+        border-radius: 153/@ppr;
+        position:relative;
+        top:150/@ppr;
+        right:183/@ppr;
+    }
 }
 
 .teacher-experience {
@@ -264,7 +269,7 @@ i {
     font-weight: 200;
 }
 
-.teacher-summary {
+.teacher-workload{
     font-size: 25/@ppr;
     font-weight: 200;
 }
@@ -344,41 +349,40 @@ i {
         	p{
         		display:inline-block;
         		width:400/@ppr;
-        		line-height:26/@ppr;
+        		line-height:1.8;
         		font-size:23/@ppr;
         		position:relative;
         		top:30/@ppr;
         	}
-            span {
-            	display:block;
-                font-weight: lighter;
-                position:relative;
-            }
-            span:before{
+            
+            i:before{
                 content: '';
                 position: absolute;
-			    top: -72%;
-			    left:-12%;
+			    top: -473%;
+			    left:32%;
 			    background: #a09c9c;
-			    width: 34%;
-			    height: 1px;
+			    width: 4%;
+			    height: 139/@ppr;
 
             }
-            span:after{
+            i:after{
                 content: '';
                 position: absolute;
-			    top: -82%;
+			    top: -500%;
 			    left:22%;
 			    background: #a09c9c;			   
 			    width: 10/@ppr;
 			    height: 10/@ppr;
 			    background-color: white;
 			    border-radius: 10/@ppr;    
-            }
+            
         }
     }
 }
-
+}
+.develop-descriotion{
+	line-height:1.2;
+}
 .develop-base-icon {
     width: 127/@ppr;
     height: 127/@ppr;
@@ -461,8 +465,6 @@ i {
     height: 28/@ppr;
     font-size: 25/@ppr;
     font-weight:400;
-
-
     img {
         display: inline-block;
         width: 100/@ppr;
@@ -471,44 +473,25 @@ i {
     }
 }
 
-.awards-description {
-    font-size: 24/@ppr;
-    text-align: center;
-    font-weight: 200;
-    margin-left: -40/@ppr;
-    p {
-
-        display: inline-block;
-        margin-left: 53/@ppr;
-
-        span {
-            font-size: 46/@ppr;
-        }
-    }
-}
-
 .awards-summary {
-
     text-align: center;
     font-size: 25/@ppr;
     font-weight:400;
-    margin-top: 70/@ppr;
+    margin-top: 30/@ppr;
     color: #22FF97;
 }
 
 .awards-icon {
     width: 640/@ppr;
-    height: 250/@ppr;
+    height: 390/@ppr;
     ul {
         width: 640/@ppr;
         height: 250/@ppr;
         text-align: center;
         margin-left: -10/@ppr;
         li {
-            width: 129/@ppr;
+            width: 140/@ppr;
             height: 129/@ppr;
-            border-radius: 129/@ppr;
-            background: pink;
             display: block;
             float: left;
             margin-left: 68/@ppr;
@@ -517,6 +500,18 @@ i {
                 width: 129/@ppr;
                 height: 129/@ppr;
                 display: block;
+            }
+            p{   
+            	display:block;
+            	width:173/@ppr;
+            	height:80/@ppr;
+            	font-weight:lighter;
+            	margin-top:47/@ppr;
+                position: relative;
+            	right:20/@ppr;
+            	  span {
+                           font-size: 46/@ppr;
+        }
             }
         }
     }
